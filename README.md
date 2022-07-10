@@ -8,6 +8,8 @@ Simply click on a folder with the name of the texture pack you want to use and c
 
 
 ## Screenshots
+NOTE: Screenshot colours do not accurately represent calculator screen colours  
+
 [Bare Bones | RobotPants](./Bare%20Bones)  
 ![screenshot](./Bare%20Bones/screenshot.png)
 
