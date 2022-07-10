@@ -12,7 +12,7 @@ To use a texture pack with Crafti, you can:
 
 a. Go to the texture pack's folder and download the `crafti.ppm.tns` file, then copy that file to your calculator's `ndless` folder  
 or  
-b. Go to the texture pack's folder and download the `terrain.png` file, then copy that file to Crafti's textures folder and then build Crafti  
+b. Go to the texture pack's folder and download the `textures` folder, then copy that file to Crafti's folder, replacing the pre-existing `textures` folder and then build the textures and then build Crafti  
 
 
 ## Screenshots
