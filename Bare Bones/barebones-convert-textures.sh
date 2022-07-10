@@ -2,9 +2,7 @@ echo "Resource Pack to Crafti terrain.png Converter"
 echo
 echo
 
-echo "Enter the horizontal block resolution (eg: 16): "
-
-read block_resolution
+let read block_resolution=16
 
 echo "Block Resolution: "${block_resolution}
 
@@ -46,6 +44,10 @@ convert -crop ${block_resolution}x${block_resolution}+0+${double_block_resolutio
 convert -crop ${block_resolution}x${block_resolution}+0+${doublequad_block_resolution} ./assets/minecraft/textures/block/lava_flow.png ./temp/lava-flow-3.png
 convert -crop ${block_resolution}x${block_resolution}+0+${quad_block_resolution} ./assets/minecraft/textures/block/lava_flow.png ./temp/lava-flow-4.png
 
+# Selection Fix
+convert -crop 14x22+10+5 ./assets/minecraft/textures/gui/world_selection.png ./selection.png
+convert -resize 15x15 -repage 15x15 -extent 15x15 -background none ./selection.png ./selection.png
+convert ./selection.png ./selection.kra
 
 
 montage +repage -crop ${block_resolution}x${block_resolution}+0+0 -geometry +0+0 -background none -tile 16x16 \
