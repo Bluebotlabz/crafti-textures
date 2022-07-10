@@ -8,4 +8,5 @@ Bare Bones is created by RobotPants who has allowed its use in Crafti, if you wa
 <br>
 
 ## Screenshots
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.png)  
+NOTE: Colours may vary slightly depending on your model
