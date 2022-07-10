@@ -8,5 +8,5 @@ Simply click on a folder with the name of the texture pack you want to use and c
 
 
 ## Screenshots
-[Bare Bones | RobotPants](./Bare Bones)  
-![screenshot](./Bare Bones/screenshot.png)
+[Bare Bones | RobotPants](./Bare%20Bones)  
+![screenshot](./Bare%20Bones/screenshot.png)
