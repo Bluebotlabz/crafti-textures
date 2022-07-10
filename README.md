@@ -14,4 +14,4 @@ NOTE: Screenshot colours do not accurately represent calculator screen colours
 ![screenshot](./Bare%20Bones/screenshot.png)
 
 <br>
-Ok fine, it's only one texture, but more are coming soon!
+Ok fine, it's only one texture pack, but more are coming soon!
