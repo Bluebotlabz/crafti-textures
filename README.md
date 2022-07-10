@@ -8,11 +8,18 @@ Simply click on a folder with the name of the texture pack you want to use and c
 
 
 ## How to Install
-To use a texture pack with Crafti, you can:  
+To use a texture pack with Crafti, you have two options:  
 
-a. Go to the texture pack's folder and download the `crafti.ppm.tns` file, then copy that file to your calculator's `ndless` folder  
-or  
-b. Go to the texture pack's folder and download the `textures` folder, then copy that file to Crafti's folder, replacing the pre-existing `textures` folder and then build the textures and then build Crafti  
+a. Use Crafti's built-in texture loading system  
+  - Go to the texture pack's folder and download the `crafti.ppm.tns` file  
+  - Copy that file to your calculator's `ndless` folder    
+<br>
+
+b. Rebuild Crafti from source (includes textures in binary and also lets you modify GUI and Particle textures)  
+  - Go to the texture pack's folder and download the `textures` folder, then copy that file to Crafti's folder, replacing the pre-existing `textures` folder  
+  - Navigate to that folder and run `make clean` and then run `make all`  
+  - Go to Crafti's root directory and run `make clean` and then `make all`  
+  - Copy the `crafti.tns` file from the `releases` folder to your calculator  
 
 
 ## Screenshots
